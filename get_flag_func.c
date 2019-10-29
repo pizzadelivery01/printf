@@ -17,10 +17,10 @@ int (*get_flag_func(char flag))(va_list args)
 		{"c", print_char},
 		{"s", print_string},
 		{"%", print_percent},
-/*
- *		{"d", print_decimal},
- *		{"i", Print_integer},
- */
+
+		{"d", print_decimal},
+		{"i", print_integer},
+
 		{NULL, NULL}
 	};
 	for (; mod[i].ch != NULL; i++)
