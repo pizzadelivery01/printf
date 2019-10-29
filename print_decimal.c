@@ -1,3 +1,11 @@
+#include "holberton.h"
+#include <stdarg.h>
+#include <unistd.h>
+/**
+ * print_decimal - prints decimal
+ * @arg: argument to print
+ * Return: number of characters printed
+ */
 int print_decimal(va_list arg)
 {
 	int n = va_arg(arg, int);

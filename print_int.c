@@ -1,3 +1,11 @@
+#include "holberton.h"
+#include <stdarg.h>
+#include <unistd.h>
+/**
+ * p_int - prints integer
+ * @arg: argument to print
+ * Return: number of characters printed
+ */
 int print_integer(va_list arg)
 {
 	int n = va_arg(arg, int);
