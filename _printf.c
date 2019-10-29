@@ -13,8 +13,8 @@ int _printf(const char *format, ...)
 {
 	va_list args;
 	int (*mod)(va_list);
-	int index = 0;
-	int count = 0;
+	unsigned int index = 0;
+	unsigned int count = 0;
 
 	if (format == NULL)
 		return (-1);
