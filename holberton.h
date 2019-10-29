@@ -10,6 +10,14 @@ int print_string(va_list args);
 int print_char(va_list args);
 int _printf(const char *format, ...);
 int _putchar(char c);
+
+/**
+ * struct flags - struct for finding functions
+ * @ch: character
+ * @func: function
+ *
+ * Description: sturct to combine char's to func's
+ */
 typedef struct flags
 {
 	char *ch;

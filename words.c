@@ -1,4 +1,4 @@
-#include "holberton.h"
+B#include "holberton.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -10,7 +10,7 @@
  */
 int print_char(va_list args)
 {
-	char output = va_arg(args,int);
+	char output = va_arg(args, int);
 
 	_putchar(output);
 	return (1);

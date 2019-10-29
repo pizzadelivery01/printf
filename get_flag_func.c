@@ -16,10 +16,12 @@ int (*get_flag_func(char flag))(va_list args)
 	flags_t mod[] = {
 		{"c", print_char},
 		{"s", print_string},
-/*		{"%", print_percent},
+/*
+ *		{"%", print_percent},
  *		{"d", print_decimal},
  *		{"i", Print_integer},
- */		{NULL, NULL}
+ */
+		{NULL, NULL}
 	};
 	for (; mod[i].ch != NULL; i++)
 	{
