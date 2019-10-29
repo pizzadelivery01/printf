@@ -2,7 +2,7 @@
 #include <stdarg.h>
 #include <unistd.h>
 /**
- * p_int - prints integer
+ * print_integer - prints integer
  * @arg: argument to print
  * Return: number of characters printed
  */
