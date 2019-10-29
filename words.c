@@ -28,7 +28,7 @@ int print_string(va_list args)
 	char *str = va_arg(args, char *);
 
 	if (str == NULL)
-		write(1, "null", 4);
+		str = "(null)";
 	for (count = 0; str[count] != '\0'; count++)
 		_putchar(str[count]);
 	return (count);
