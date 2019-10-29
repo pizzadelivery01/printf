@@ -5,6 +5,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 
+int print_percent(va_list args);
 int (*get_flag_func(char flag))(va_list args);
 int print_string(va_list args);
 int print_char(va_list args);
