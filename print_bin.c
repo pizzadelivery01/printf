@@ -10,7 +10,7 @@ int print_bin(va_list args)
 {
 	int d = va_arg(args, int);
 	int bin[32];
-	int i=0;
+	int i = 0;
 	int count = 0;
 
 	while (d > 0)
@@ -21,6 +21,6 @@ int print_bin(va_list args)
 		count++;
 	}
 	for (int j = i - 1; j >= 0; j--)
-		putchar(bin[j]+ 48);
+		putchar(bin[j] + 48);
 	return (count);
 }
