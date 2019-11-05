@@ -14,6 +14,13 @@ int print_bin(va_list args)
 	int count = 0;
 	int j;
 
+	if (d == 0)
+	{
+		_putchar(48);
+		count++;
+		return (count);
+	}
+	else
 	while (d > 0)
 	{
 		bin[i] = d % 2;

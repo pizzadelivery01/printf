@@ -19,6 +19,7 @@ int (*get_flag_func(char flag))(va_list args)
 		{"%", print_percent},
 		{"d", print_decimal},
 		{"i", print_integer},
+		{"b", print_bin},
 		{NULL, NULL}
 	};
 	for (; mod[i].ch != NULL; i++)
