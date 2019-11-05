@@ -20,7 +20,11 @@ int print_bin(va_list args)
 		i++;
 		count++;
 	}
-	for (int j = i - 1; j >= 0; j--)
+	int j = i - 1;
+	while (j >= 0)
+	{
 		_putchar(bin[j] + 48);
+		j--;
+	}
 	return (count);
 }
