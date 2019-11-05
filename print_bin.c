@@ -8,8 +8,8 @@
  */
 int print_bin(va_list args)
 {
-	int d = va_arg(args, int);
-	int bin[32];
+	unsigned int d = va_arg(args, int);
+	unsigned int bin[32];
 	int i = 0;
 	int count = 0;
 	int j;
