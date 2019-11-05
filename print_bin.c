@@ -21,6 +21,6 @@ int print_bin(va_list args)
 		count++;
 	}
 	for (int j = i - 1; j >= 0; j--)
-		putchar(bin[j] + 48);
+		_putchar(bin[j] + 48);
 	return (count);
 }
