@@ -13,6 +13,7 @@ int _printf(const char *format, ...);
 int _putchar(char c);
 int print_decimal(va_list args);
 int print_integer(va_list args);
+int print_bin(va_list args);
 
 /**
  * struct flags - struct for finding functions
